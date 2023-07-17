@@ -27,11 +27,10 @@ export default function Skills () {
             <div className="row">
                 <div className="col">
                     <div className="row">
-                        <p>This is where i will say something about my skills</p>
-                        <h3>Skills & Experience</h3>
-                        <p>Talk about what you have learned and how you can use it.</p>
-                        <p>Visit my GitHub to see my code</p>
-                        <p>Check out my Linkedin for more details</p>
+                        <h2>Skills & Experience</h2>
+                        <p>I possess a strong foundation in both backend and frontend development. Proficient in C#, I am capable of building robust and scalable applications, while my experiences in JavaScript and React empowers me to create dynamic and interactive user interfaces. Equipped with a versatile skill set, I am adept at bridging the gap between different programming languages and frameworks, enabling me to tackle a wide range of developement challenges with precision and efficiency.</p>
+                        <p>Visit my <a>GitHub</a> to see my code</p>
+                        <p>Check out my <a>Linkedin</a> for more details</p>
                     </div>
                     <div className="row">
                         <img src={Bootstrap} alt="Bootstrap" />
