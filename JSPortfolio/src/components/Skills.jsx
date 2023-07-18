@@ -23,7 +23,7 @@ import Zoom from '../assets/Icons/icons8-zoom-96.png'
 
 export default function Skills () {
     return (
-        <div>
+        <div className="row">
             <div className="row">
                 <div className="col">
                     <div className="row">
@@ -33,30 +33,28 @@ export default function Skills () {
                         <p>Check out my <a>Linkedin</a> for more details</p>
                     </div>
                     <div className="row">
-                        <img src={Bootstrap} alt="Bootstrap" />
-                        <img src={CS} alt="C#" />
-                        <img src={CSS} alt="CSS" />
-                        <img src={Django} alt="Django" />
-                        <img src={Express} alt="Express" />
-                        <img src={Github} alt="Github" />
-                        <img src={HTML} alt="HTML" />
-                        <img src={JS} alt="JS" />
-                        <img src={JQuery} alt="jQuery" />
-                        <img src={LinkedIn} alt="LinkedIn" />
-                        <img src={Mongodb} alt="MongoDB" />
-                        <img src={Nodejs} alt="NodeJS" />
-                        <img src={Python} alt="Python" />
-                        <img src={ReactJS} alt="ReactJS" />
-                        <img src={Slack} alt="Slack" />
-                        <img src={SQL} alt="SQL" />
-                        <img src={VS} alt="VS" />
-                        <img src={Xamarin} alt="Xamarin" />
-                        <img src={Zoom} alt="Zoom" />
+                        <img src={Bootstrap} alt="Bootstrap" className="myicon"/>
+                        <img src={CS} alt="C#" className="myicon"/>
+                        <img src={CSS} alt="CSS" className="myicon"/>
+                        <img src={Django} alt="Django" className="myicon"/>
+                        <img src={Express} alt="Express" className="myicon"/>
+                        <img src={Github} alt="Github" className="myicon"/>
+                        <img src={HTML} alt="HTML" className="myicon"/>
+                        <img src={JS} alt="JS" className="myicon"/>
+                        <img src={JQuery} alt="jQuery" className="myicon"/>
+                        <img src={LinkedIn} alt="LinkedIn" className="myicon"/>
+                        <img src={Mongodb} alt="MongoDB" className="myicon"/>
+                        <img src={Nodejs} alt="NodeJS" className="myicon"/>
+                        <img src={Python} alt="Python" className="myicon"/>
+                        <img src={ReactJS} alt="ReactJS" className="myicon"/>
+                        <img src={Slack} alt="Slack" className="myicon"/>
+                        <img src={SQL} alt="SQL" className="myicon"/>
+                        <img src={VS} alt="VS" className="myicon"/>
+                        <img src={Xamarin} alt="Xamarin" className="myicon"/>
+                        <img src={Zoom} alt="Zoom" className="myicon"/>
                     </div>
                 </div>
             </div>
-
         </div>
-
     )
 }

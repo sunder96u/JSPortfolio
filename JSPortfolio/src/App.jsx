@@ -6,13 +6,13 @@ import Footer from './components/FooterLeft'
 function App() {
   return (
     <>
-      <div>
+      <div className="row header">
         <Header />
       </div>
-      <div>
+      <div className="row main">
         <Main />
       </div>
-      <div>
+      <div className="row footer">
         <Footer />
       </div>
     </>

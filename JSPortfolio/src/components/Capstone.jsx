@@ -1,5 +1,5 @@
 export default function Capstone () {
     return (
-        <h1>Capstone</h1>
+        <h1>Coming SOON!!</h1>
     )
 }

@@ -10,21 +10,19 @@ import Resume from "./Resume"
 import Contact from "./Contact"
 
 
+
 export default function Main () {
 
     return (
-        <div className = "Main">
+        <div className="FindMe" >
             <ReactFullpage 
             licenseKey = {`4L9KI-N82OK-KLZ36-6E4J9-XXAUO`}
             navigation={true}
-            navigationPosition='left'
-            scrollingSpeed={1500}
+            scrollingSpeed={1250}
             continuousVertical={true}
             continuousHorizontal={true}
             credits={false}
-            slidesNavigation={false}
-            
-            
+                    
             render={() => (
                 <ReactFullpage.Wrapper>
                     <div className="section">
