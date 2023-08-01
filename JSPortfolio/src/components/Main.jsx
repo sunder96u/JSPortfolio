@@ -14,13 +14,15 @@ import Contact from "./Contact"
 export default function Main () {
 
     return (
-        <div className="FindMe" >
+        <div>
             <ReactFullpage 
             licenseKey = {`4L9KI-N82OK-KLZ36-6E4J9-XXAUO`}
             navigation={true}
             scrollingSpeed={1250}
             continuousVertical={true}
             continuousHorizontal={true}
+            slidesNavigation={true}
+            slidesNavPosition='bottom'
             credits={false}
                     
             render={() => (
