@@ -6,6 +6,7 @@ import Django from '../assets/Icons/icons8-django-100.png'
 import Swift from '../assets/Icons/icons8-swift-96.png'
 import Tech from '../assets/ProjectPictures/gittech.gif'
 import myCapstone from '../assets/ProjectPictures/capstone.png'
+import OneWheel from '../assets/ProjectPictures/Onewheel.gif'
 
 
 export default function Capstone () {
@@ -14,7 +15,7 @@ export default function Capstone () {
             <div className="row">
                 <div className="col-4">
                     <div className="row">
-                        <img src={myCapstone} alt="GitTech gif" />
+                        <img src={OneWheel} alt="Onewheel gif" />
                     </div>
                 </div>
                 <div className="col-8">
@@ -23,7 +24,7 @@ export default function Capstone () {
                         <h3>Ecommerce & Social Applications</h3>
                     </div>
                     <div className="row">
-                        <p>Are you looking for new parts for your Onewheel? OneWheel OneRide is an eccmmerce site that allows the users to filter by model of Onewheel or by specific part type. It also includes a social platform where users can search for trails near them, or groups to float with. This is a multipiece project with a functional back-end and API, front-end, and IOS application. </p>
+                        <p>Are you looking for new parts for your Onewheel? OneWheel OneRide is an eccmmerce site that allows the users to filter by model of Onewheel or by specific part type. It also includes a social platform where users can search for trails and join groups to ride with. OneWheel OneRide is a multi-piece project with a functional back-end and API, front-end, and IOS application.</p>
                     </div>
                     <div className="row center">
                         <p>Built with:</p>
