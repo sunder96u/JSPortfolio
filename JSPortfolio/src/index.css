@@ -6,7 +6,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,8 +19,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: black;;
-
+  background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem;
   text-align: center;
   background: black;
+  background-image: url('../src/assets/Untitled\ design\ \(2\).png');
+  background-position: center;
 }
 
 p {
@@ -58,7 +58,6 @@ a {
   width: 100%;
   padding-top: 15px;
   top: 0;
-  background: black;
 }
 
 .big {
@@ -68,7 +67,7 @@ a {
 }
 
 .smallleft {
-  font-size: smaller;
+  font-size: large;
   float: right;
 }
 
