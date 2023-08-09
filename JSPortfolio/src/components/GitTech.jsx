@@ -9,7 +9,7 @@ import Tech from '../assets/ProjectPictures/gittech.gif'
 
 export default function GitTech () {
     return (
-        <div className='box myslide'>
+        <div className='box myslide col-10'>
             <div className="row">
                 <div className="col-4">
                     <div className="row">

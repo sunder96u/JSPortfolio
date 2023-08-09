@@ -7,7 +7,7 @@ import Weather from '../assets/ProjectPictures/weatherapp.gif'
 
 export default function WeatherAPP () {
     return (
-        <div className='box myslide'>
+        <div className='box myslide col-10'>
             <div className="row">
                 <div className="col-8">
                     <div className="row">

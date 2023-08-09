@@ -7,7 +7,7 @@ import WRX from '../assets/ProjectPictures/projectwrx.gif'
 
 export default function ProjectWRX () {
     return (
-        <div className='box myslide'>
+        <div className='box myslide col-10'>
             <div className="row">
                 <div className="col-8">
                     <div className="row">

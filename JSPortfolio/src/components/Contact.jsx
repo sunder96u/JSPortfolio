@@ -31,7 +31,7 @@ export default function Contact () {
     }
 
     return (
-        <div>
+        <div className="col-12">
             <h1>Contact Me:</h1>
             <div className='App' >
                 <Form onSubmit={handleOnSubmit}>

@@ -11,7 +11,7 @@ import OneWheel from '../assets/ProjectPictures/Onewheel.gif'
 
 export default function Capstone () {
     return (
-        <div className='box myslide'>
+        <div className='box myslide col-10'>
             <div className="row">
                 <div className="col-4">
                     <div className="row">

@@ -5,7 +5,7 @@ import Footer from './components/FooterLeft'
 
 function App() {
   return (
-    <>
+    <div className="background">
       <div className="row header">
         <Header />
       </div>
@@ -15,7 +15,7 @@ function App() {
       <div className="row footer">
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
 

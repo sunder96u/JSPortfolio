@@ -6,7 +6,7 @@ import Bug  from '../assets/ProjectPictures/bugtracker.gif'
 
 export default function BugTracker () {
     return (
-        <div className='box myslide'>
+        <div className='box myslide col-10'>
             <div className="row">
                 <div className="col-8">
                     <div className="row">

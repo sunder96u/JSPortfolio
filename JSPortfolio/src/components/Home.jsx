@@ -5,7 +5,7 @@ import HomeImg from '../assets/Home_Picture-removebg-preview.png'
 
 export default function Home () {
     return (
-        <div className='box'>
+        <div className='box col-10'>
             <div className='row'>
                 <div className='col-6'>
                     <img src={HomeImg} className="img-fluid" />

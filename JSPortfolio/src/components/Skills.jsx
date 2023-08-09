@@ -25,7 +25,7 @@ import XCode from '../assets/Icons/icons8-xcode-96.png'
 
 export default function Skills () {
     return (
-        <div className='box'>
+        <div className='box col-10'>
             <div className="row">
                     <div className="col-12">
                         <div className="row">

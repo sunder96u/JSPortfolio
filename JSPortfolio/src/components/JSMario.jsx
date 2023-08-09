@@ -4,7 +4,7 @@ import Mario from '../assets/ProjectPictures/mario.gif'
 
 export default function JSMario () {
     return (
-        <div className='box myslide'>
+        <div className='box myslide col-10'>
             <div className="row">
                 <div className="col-8">
                     <div className="row">
