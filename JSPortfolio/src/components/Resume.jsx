@@ -35,7 +35,7 @@ export default function Resume () {
     }
 
     return (
-        <div className="boxcol-10">
+        <div className="box col-10">
             <div className="row">
                 <div className="col-md-12 col-sm-10">
                     <Document file={MyResume} onLoadSuccess={onDocumentLoadSuccess}>
