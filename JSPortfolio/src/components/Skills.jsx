@@ -35,26 +35,26 @@ export default function Skills () {
                             <p>Check out my <a href="https://www.linkedin.com/in/steven--underwood/" target="_blank">LinkedIn</a> for more details</p>
                         </div>
                         <div className="row center">
-                            <img src={Bootstrap} alt="Bootstrap" className="myicon"/>
-                            <img src={CS} alt="C#" className="myicon"/>
-                            <img src={CSS} alt="CSS" className="myicon"/>
-                            <img src={Django} alt="Django" className="myicon"/>
-                            <img src={Express} alt="Express" className="myicon"/>
-                            <img src={Github} alt="Github" className="myicon"/>
-                            <img src={HTML} alt="HTML" className="myicon"/>
-                            <img src={JS} alt="JS" className="myicon"/>
-                            <img src={JQuery} alt="jQuery" className="myicon"/>
-                            <img src={Mongodb} alt="MongoDB" className="myicon"/>
-                            <img src={Nodejs} alt="NodeJS" className="myicon"/>
-                            <img src={Python} alt="Python" className="myicon"/>
-                            <img src={ReactJS} alt="ReactJS" className="myicon"/>
-                            <img src={Slack} alt="Slack" className="myicon"/>
-                            <img src={Swift} alt="Swift" className="myicon"/>
-                            <img src={SQL} alt="SQL" className="myicon"/>
-                            <img src={VS} alt="VS" className="myicon"/>
-                            <img src={XCode} alt="Xcode" className="myicon"/>
-                            <img src={Xamarin} alt="Xamarin" className="myicon"/>
-                            <img src={Zoom} alt="Zoom" className="myicon"/>
+                            <img src={Bootstrap} alt="Bootstrap" className="myicon smlicon"/>
+                            <img src={CS} alt="C#" className="myicon smlicon"/>
+                            <img src={CSS} alt="CSS" className="myicon smlicon"/>
+                            <img src={Django} alt="Django" className="myicon smlicon"/>
+                            <img src={Express} alt="Express" className="myicon smlicon"/>
+                            <img src={Github} alt="Github" className="myicon smlicon"/>
+                            <img src={HTML} alt="HTML" className="myicon smlicon"/>
+                            <img src={JS} alt="JS" className="myicon smlicon"/>
+                            <img src={JQuery} alt="jQuery" className="myicon smlicon"/>
+                            <img src={Mongodb} alt="MongoDB" className="myicon smlicon"/>
+                            <img src={Nodejs} alt="NodeJS" className="myicon smlicon"/>
+                            <img src={Python} alt="Python" className="myicon smlicon"/>
+                            <img src={ReactJS} alt="ReactJS" className="myicon smlicon"/>
+                            <img src={Slack} alt="Slack" className="myicon smlicon"/>
+                            <img src={Swift} alt="Swift" className="myicon smlicon"/>
+                            <img src={SQL} alt="SQL" className="myicon smlicon"/>
+                            <img src={VS} alt="VS" className="myicon smlicon"/>
+                            <img src={XCode} alt="Xcode" className="myicon smlicon"/>
+                            <img src={Xamarin} alt="Xamarin" className="myicon smlicon"/>
+                            <img src={Zoom} alt="Zoom" className="myicon smlicon"/>
                         </div>
                     </div>
             </div>

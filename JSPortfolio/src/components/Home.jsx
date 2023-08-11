@@ -7,10 +7,10 @@ export default function Home () {
     return (
         <div className='box col-10'>
             <div className='row'>
-                <div className='col-6'>
+                <div className='col-md-6 col-sm-12'>
                     <img src={HomeImg} className="img-fluid" />
                 </div>
-                <div className="col-6">
+                <div className="col-md-6 col-sm-12">
                     <div className="row">
                         <h1>Full-Stack Software Engineer</h1>
                     </div>

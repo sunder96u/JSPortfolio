@@ -8,7 +8,7 @@ export default function BugTracker () {
     return (
         <div className='box myslide col-10'>
             <div className="row">
-                <div className="col-8">
+                <div className="col-md-8 col-sm-12">
                     <div className="row">
                         <h1>Bug Tracker</h1>
                         <h3>Project Managment Application</h3>
@@ -27,9 +27,9 @@ export default function BugTracker () {
                         <h3><a href="https://github.com/sunder96u/BugTracker" target="_blank">Code</a></h3>
                     </div>
                 </div>  
-                <div className="col-4">
+                <div className="col-md-4 col-md12">
                     <div className="row">
-                        <img src={Bug} alt="bugtracker gif" />
+                        <img src={Bug} alt="bugtracker gif"/>
                     </div>
                 </div> 
             </div>

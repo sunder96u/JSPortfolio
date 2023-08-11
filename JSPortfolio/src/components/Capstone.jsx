@@ -13,12 +13,12 @@ export default function Capstone () {
     return (
         <div className='box myslide col-10'>
             <div className="row">
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                     <div className="row">
-                        <img src={OneWheel} alt="Onewheel gif" />
+                        <img src={OneWheel} alt="Onewheel gif"/>
                     </div>
                 </div>
-                <div className="col-8">
+                <div className="col-md-8 col-sm-12">
                     <div className="row">
                         <h1>OneWheel OneRide</h1>
                         <h3>Ecommerce & Social Applications</h3>

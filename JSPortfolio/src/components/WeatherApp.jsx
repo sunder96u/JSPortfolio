@@ -9,7 +9,7 @@ export default function WeatherAPP () {
     return (
         <div className='box myslide col-10'>
             <div className="row">
-                <div className="col-8">
+                <div className="col-md-8 col-sm-12">
                     <div className="row">
                         <h1>Weather App</h1>
                         <h3>Weather Viewer Application</h3>
@@ -29,7 +29,7 @@ export default function WeatherAPP () {
                         <h3><a href="https://github.com/sunder96u/WeatherApp" target="_blank">Code</a></h3>
                     </div>
                 </div>  
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                     <div className="row">
                         <img src={Weather} alt="weather app gif" />
                     </div>

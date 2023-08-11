@@ -9,12 +9,12 @@ export default function BudgetPlanner () {
     return (
         <div className='box myslide col-10'>
             <div className="row">
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                     <div className="row">
                         <img src={Budget} alt="Budget planning gif" />
                     </div>
                 </div>
-                <div className="col-8">
+                <div className="col-md-8 col-lg-8 col-sm-12">
                     <div className="row">
                         <h1>Budget Planner</h1>
                         <h3>Budget Planning Application</h3>

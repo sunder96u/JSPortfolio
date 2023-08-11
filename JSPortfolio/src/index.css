@@ -126,10 +126,10 @@ Form {
   padding: 20px;
 }
 
-@media only screen and (max-width: 750px) { 
+@media only screen and (max-width: 425px) { 
 
   #root {
-    width: 700px;
+    width: 400px;
     padding: 0px;
     margin: 0px;
   }
@@ -143,102 +143,38 @@ Form {
     font-size: 15px;
   }
 
+  .myicon {
+    max-width: 75px;
+  }
+
+  .fp-arrow {
+    display: none;
+  }
+
+  .gif {
+    display: none;
+  }
+
+  .box {
+    max-width: 250px;
+  }
+
+  .resume {
+    max-height: 250px;
+  }
   
+  .smlicon {
+    max-height: 50px;
+    max-width: 50px;
+  }
+
+  .smlimg {
+    max-width: 100px;
+  }
+
+  .smaller {
+    font-size: small;
+  }
 }
 
-@media only screen and (max-width: 600px) {
 
-  #root {
-    width: 525px;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  .box {
-    width: 475px;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .section {
-    width: 500px;
-  }
-
-  .row {
-    width: 475px;
-  }
-
-  .bigImg {
-    width: 450px;
-  }
-
-  .myicon {
-    width: 75px;
-  }
-
-  .fp-is-overflow {
-    overflow-y:hidden;
-  }
-
-  .fp-arrow {
-    display: none;
-  }
-
-
-}
-
-@media only screen and (max-width: 425px) {
-
-  #root {
-    width: 375px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  div {
-    width: 350px;
-  }
-
-  .bigImg {
-    width: 325px;
-  }
-
-  p {
-    font-size: 10px;
-  }
-
-  .btn {
-    width: 150px;
-  }
-
-  .box {
-    display: flex;
-    width: 250px;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .row {
-    width: 300px;
-  }
-
-  .myicon {
-    width: 60px;
-  }
-
-  .fp-arrow {
-    display: none;
-  }
-
-  .fp-is-overflow {
-    overflow-y:hidden;
-  }
-
-}

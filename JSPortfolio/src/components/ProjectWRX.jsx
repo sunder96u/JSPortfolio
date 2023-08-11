@@ -9,7 +9,7 @@ export default function ProjectWRX () {
     return (
         <div className='box myslide col-10'>
             <div className="row">
-                <div className="col-8">
+                <div className="col-md-8 col-sm-12">
                     <div className="row">
                         <h1>ProjectWRX</h1>
                         <h3>Project Management Application</h3>
@@ -30,7 +30,7 @@ export default function ProjectWRX () {
                         <h3><a href="https://github.com/sunder96u/ProjectWRX-Back" target="_blank">Back-end Code</a></h3>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-lg-12">
                     <div className="row">
                         <img src={WRX} alt="ProjectWRX gif" />
                     </div>

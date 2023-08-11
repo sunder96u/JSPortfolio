@@ -35,9 +35,9 @@ export default function Resume () {
     }
 
     return (
-        <div className="box col-12">
+        <div className="boxcol-10">
             <div className="row">
-                <div className="col-12">
+                <div className="col-md-12 col-sm-10">
                     <Document file={MyResume} onLoadSuccess={onDocumentLoadSuccess}>
                         <Page pageNumber={pageNumber} onClick={() => nextPage()}/>
                     </Document>
