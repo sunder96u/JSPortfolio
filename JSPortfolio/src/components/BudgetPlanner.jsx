@@ -20,7 +20,7 @@ export default function BudgetPlanner () {
                         <h3>Budget Planning Application</h3>
                     </div>
                     <div className="row">
-                        <p>write a quick blurb</p>
+                        <p>Are you tired of keeping track of your budget in the back of your checkbook? Live in the future by keeping track of your budget on your phone!! This application will help keep your money organized and keep you well informed on you current budget.</p>
                     </div>
                     <div className="row center">
                         <p>Built with:</p>
